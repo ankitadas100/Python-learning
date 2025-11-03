@@ -1,0 +1,12 @@
+student={
+  "ankita":67,
+  "roshni":78,
+  "alanna":40
+}
+print(student["alanna"])
+print(type[student])
+print(student.items())
+print(student.keys())
+student.update({"ankita":78,"priya":99})
+print(student)
+print(student.get("roshni"))
